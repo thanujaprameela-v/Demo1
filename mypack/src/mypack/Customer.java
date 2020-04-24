@@ -7,6 +7,7 @@ public class Customer {
 	  int customerId;
 	  String customerName;
       double customerMoblieNumber;
+      String address;
 	}
  
 	public void addCutomer() 
