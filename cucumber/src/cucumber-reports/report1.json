@@ -1,0 +1,96 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-04-23T10:06:27.130Z",
+        "line": 11,
+        "name": "Valid Login User",
+        "description": "",
+        "id": "login-feature;valid-login-user;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 26129000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "The URL of demo Testme application",
+            "match": {
+              "location": "skeleton.LoginTestMe.the_URL_of_demo_Testme_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 175000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User enter Lalitha as username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lalitha",
+                  "offset": 11
+                }
+              ],
+              "location": "skeleton.LoginTestMe.user_enter_Lalitha_as_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 222000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter Password123 as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password123",
+                  "offset": 11
+                }
+              ],
+              "location": "skeleton.LoginTestMe.user_enter_Password_as_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17236000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks the login button",
+            "match": {
+              "location": "skeleton.LoginTestMe.user_clicks_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2663000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user logins successful",
+            "match": {
+              "location": "skeleton.LoginTestMe.the_user_logins_successful()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/CaseStudy/Scenario2.feature",
+    "tags": []
+  }
+]
